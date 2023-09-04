@@ -4,7 +4,8 @@ This pipeline handles real-time data about stocks and stock news. Data from Alph
 in real-time, is processed with Apache Spark, and stored for analysis in Google Cloud Storage. Airflow orchestrates 
 the process and Docker is used for containerization.
 
-The following demonstrates an example of a finished dashboard from collected data using Looker
+The following demonstrates an example of a finished dashboard from collected data using Looker:
+
 ![workflow](image/stock_dashboard.png "Dashboard")
 
 ### Technology stack
@@ -19,7 +20,7 @@ The following demonstrates an example of a finished dashboard from collected dat
 
 ### Setup and usage
 
-To run the project, follow these steps:.
+To run the project, follow these steps:
 
 1. Build and start the project containers using docker-compose
    ```bash 
