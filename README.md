@@ -36,4 +36,4 @@ python -m pytest tests/
 
 ### License
 
-This project is licensed under the [MIT License](#https://github.com/nadyinky/av-stock-pipeline/blob/fb4858cd334f336f9ef0b5d832fdac2ad21093a8/LICENSE).
+This project is licensed under the [MIT License](https://github.com/nadyinky/av-stock-pipeline/blob/fb4858cd334f336f9ef0b5d832fdac2ad21093a8/LICENSE).
