@@ -22,13 +22,13 @@ The following demonstrates an example of a finished dashboard from collected dat
 
 To run the project, follow these steps:
 
-1. Build and start the project containers using docker-compose
+1. Enter all necessary parameters in the `src/data_pipeline/config.py` and `airflow/.env` files
+2. Build and start the project containers using docker-compose
    ```bash 
    docker-compose up --build
    ```
-2. Enter all necessary parameters in the `src/data_pipeline/config.py` and `airflow/.env` files
-3. Access the Airflow UI at http://localhost:8080 to monitor and manage the data pipeline.
-4. Access the FastAPI API at http://localhost:8000/docs to trigger data ingestion.
+3. Access the Airflow UI at http://localhost:8080 to monitor and manage the data pipeline
+4. Access the FastAPI API at http://localhost:8000/docs to trigger data ingestion
 
 The project includes unit and integration tests to ensure the correctness of components. To run the tests:
 ```
